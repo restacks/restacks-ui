@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "outDir": "build",
+    "module": "commonjs",
+    "target": "es5",
+    "diagnostics": true,
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowJs":true,
+    "removeComments": true,
+    "allowUnusedLabels": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "typings/main",
+    "typings/main.d.ts"
+  ]
+}
