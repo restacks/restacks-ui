@@ -18,6 +18,7 @@ var config = {
   entry: {
     app: [
       'webpack-hot-middleware/client?reload=true',
+      'webpack/hot/dev-server',
       './src/client.tsx',
       './src/vendor/main.ts'
     ]
