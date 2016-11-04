@@ -42,6 +42,7 @@ class Html extends React.Component<IHtmlProps, {}> {
           {head.script.toComponent()}
 
           {renderStyles}
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
           <link rel="shortcut icon" href="/favicon.ico" />
         </head>
         <body>

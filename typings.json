@@ -26,6 +26,7 @@
   "dependencies": {
     "chai": "registry:npm/chai#3.5.0+20160723033700",
     "enzyme": "registry:npm/enzyme#2.2.0+20160322031343",
+    "material-ui": "registry:npm/material-ui#0.15.1+20160817172421",
     "react-dom": "registry:npm/react-dom#15.0.1+20160826174104",
     "redux-thunk": "registry:npm/redux-thunk#2.0.0+20160525185520",
     "sinon": "registry:npm/sinon#1.16.0+20160723033700",

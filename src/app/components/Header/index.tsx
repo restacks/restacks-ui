@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-router';
+import { RaisedButton } from 'material-ui';
 
 class Header extends React.Component<any, any> {
   public render() {
@@ -13,6 +14,7 @@ class Header extends React.Component<any, any> {
           <li><Link to="counter">Counter</Link></li>
           <li><Link to="stars">Stars</Link></li>
         </ul>
+        <RaisedButton label="Default" primary={true}/>
       </nav>
     );
   }
